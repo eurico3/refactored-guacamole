@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Testing Javascript Functions</title>
+
+
+    <script>
+    function generateDayWiseTimeSeries(baseval, count, yrange) {
+      var i = 0;
+      var datas = [];
+      var valores = [];
+      var series = [];
+      while (i < count) {
+        var x = baseval;
+        var y =
+          Math.floor(Math.random() * (yrange.max - yrange.min + 1)) +
+          yrange.min;
+  
+        //series.push(x, y);
+        valores.push(y);
+        datas.push(x)
+        baseval += 86400000;
+        i++;
+      }
+      document.write(valores)
+      return [valores,datas];
+    }
+    /*
+    function hello(){
+        return "Hello John"
+    }
+
+        document.write(hello());
+*/
+        document.write(generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(),20,{
+            min: 10,
+            max: 60
+          }))
+    </script>
+  </head>
+
+
+
+
+
+    <body>
+
+    </body>
+    </html>
