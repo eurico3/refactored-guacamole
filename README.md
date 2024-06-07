@@ -1,12 +1,11 @@
 # refactored-guacamole
 
-'*'Flask (Python)
-ApexCharts (JavaScript)
-Deploy (Docker)
-Deploy (Google Cloud Run)
-* Item 1
-* Item 2
-* Item 3
+* Flask (Python)
+* ApexCharts (JavaScript)
+* Bootstrap (CSS framework)
+* Deploy (Docker)
+* Deploy (Google Cloud Run)
+* Deploy (CI/CD via GitHub)
 
 Click link to view deploy of this project
 
