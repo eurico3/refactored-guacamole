@@ -1,5 +1,7 @@
 # refactored-guacamole
 
+Simple project for testing some ApexCharts with Python Flask
+
 * Flask (Python)
 * ApexCharts (JavaScript)
 * Bootstrap (CSS framework)
