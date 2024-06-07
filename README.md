@@ -4,6 +4,9 @@
 ApexCharts (JavaScript)
 Deploy (Docker)
 Deploy (Google Cloud Run)
+* Item 1
+* Item 2
+* Item 3
 
 Click link to view deploy of this project
 
